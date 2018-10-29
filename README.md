@@ -1,4 +1,4 @@
-# Kenoby - Busca de vaga
+# Kenoby - Busca de vagas
 
 Um buscador de vagas para a [Kenoby](http://www.kenoby.com/).
 
@@ -13,8 +13,6 @@ Boilerplate criado pelo Facebook [create-react-app](https://github.com/facebooki
 * git clone https://github.com/aavianna/kenoby_search
 
 * cd ./kenoby_search
-
-* npm
 
 * npm start
 
