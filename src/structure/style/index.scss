@@ -1,0 +1,17 @@
+/* Structure */
+@import './_reset';
+@import './_colors';
+@import './_breakpoints';
+@import './_layout';
+
+/* Components */
+@import '../../components/loading/style';
+@import '../../components/header/style';
+@import '../../components/logo/style';
+@import '../../components/search/style';
+@import '../../components/filterFavorite/style';
+@import '../../components/widgetProfile/style';
+@import '../../components/message/style.scss';
+
+/* Pages */
+@import '../../components/vacancies/style';

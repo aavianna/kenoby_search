@@ -1,0 +1,42 @@
+.loading {
+    width: 50px;
+    margin: 50px auto;
+
+    &__svg {
+        width: 50px;
+        animation: loading 3s linear infinite;
+
+        &__circle {
+            stroke: {
+                width: 10;
+                dashoffset: 0;
+                dasharray: 300;
+                miterlimit: 10;
+                linecap: round;
+            }
+            fill: transparent;
+            stroke: #af58fc;
+            animation: loading-circle 2s linear infinite;
+        }
+    }
+}
+
+/* ---------------- Animation ------------------ */
+
+@keyframes loading {
+    0% { 
+        transform: rotate(0); 
+    }
+    100% { 
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loading-circle {
+    0% { 
+        stroke-dashoffset: 0
+    }
+    100% { 
+        stroke-dashoffset: -600;
+    }
+}

@@ -1,0 +1,48 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #9013fe;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 15px;
+
+    &:after {
+        position: absolute;
+        top: 0;
+        left: calc(-50vw + 50%); 
+        width: 100vw;
+        height: 100%;
+        background: #9013fe;
+        content: '';
+    }
+
+    &__container {
+        position: relative;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+
+        &__center {
+            max-width: 180px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @include media(xs-320) {
+                max-width: 120px;
+            }
+
+            @include media(sm) {
+                max-width: 480px;
+            }
+
+            @include media(md) {
+                max-width: 670px;
+            }
+        }
+    }
+}

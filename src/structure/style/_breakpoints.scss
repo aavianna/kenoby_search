@@ -1,0 +1,39 @@
+// Breakpoints
+$xs-width: 320px;
+$sm-width: 768px;
+$md-width: 992px;
+$lg-width: 1230px;
+$xl-width: 1600px;
+
+@mixin media($bp) {
+
+@if $bp == xs-320 {
+    @media (max-width: $xs-width) { @content; }
+}
+
+@else if $bp == xs-only {
+    @media (max-width: $sm-width - 1) { @content; }
+}
+
+@else if $bp == sm {
+    @media (min-width: $sm-width) { @content; }
+}
+@else if $bp == sm-only {
+    @media (min-width: $sm-width) and (max-width: $md-width - 1) { @content; }
+}
+
+@else if $bp == md {
+    @media (min-width: $md-width) { @content; }
+}
+@else if $bp == md-only {
+    @media (min-width: $md-width) and (max-width: $lg-width - 1) { @content; }
+}
+
+@else if $bp == lg {
+    @media (min-width: $lg-width) { @content; }
+}
+
+@else if $bp == xl {
+    @media (min-width: $xl-width) { @content; }
+}
+}
