@@ -1,4 +1,4 @@
-# Kenoby - Busca de vaga
+# Kenoby - Busca de vagas
 
 Um buscador de vagas para a [Kenoby](http://www.kenoby.com/).
 
