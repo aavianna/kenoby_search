@@ -57,7 +57,7 @@ export default class Vacancies extends Component {
                                 ></p>
                                 <a
                                     className='accordion__body__button'
-                                    href='{ vacancy.linksExternal }'
+                                    href={vacancy.linksExternal}
                                     title='Candidate-se'
                                     target='_blank'
                                     rel='noopener noreferrer'>candidate-se</a>
