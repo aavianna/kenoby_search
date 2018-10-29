@@ -14,8 +14,6 @@ Boilerplate criado pelo Facebook [create-react-app](https://github.com/facebooki
 
 * cd ./kenoby_search
 
-* npm
-
 * npm start
 
 * [http://localhost:3000/](http://localhost:3000/).
