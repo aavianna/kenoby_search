@@ -26,23 +26,23 @@
         z-index: 1;
 
         &__center {
-            max-width: 180px;
             width: 100%;
+            max-width: 570px;
             display: flex;
             justify-content: center;
             align-items: center;
 
-            @include media(xs-320) {
-                max-width: 120px;
-            }
+            // @include media(xs-320) {
+            //     max-width: 120px;
+            // }
 
-            @include media(sm) {
-                max-width: 480px;
-            }
+            // @include media(sm) {
+            //     max-width: 480px;
+            // }
 
-            @include media(md) {
-                max-width: 670px;
-            }
+            // @include media(md) {
+            //     max-width: 670px;
+            // }
         }
     }
 }
